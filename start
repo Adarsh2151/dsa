@@ -28,3 +28,12 @@ def fun2(arr, start_index, end_index):
 # This code is contributed by rag2127
 
 getting binary of any number
+def fun2(n):
+	if(n == 0):
+		return
+	
+	fun2(n / 2)
+	print(n % 2, end="")
+
+# This code is contributed by shubhamsingh10
+
